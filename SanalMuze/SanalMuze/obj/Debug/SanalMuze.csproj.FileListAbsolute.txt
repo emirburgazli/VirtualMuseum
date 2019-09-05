@@ -1,0 +1,6 @@
+c:\users\administrator\documents\visual studio 2013\Projects\SanalMuze\SanalMuze\obj\Debug\SanalMuze.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2013\Projects\SanalMuze\SanalMuze\bin\SanalMuze.dll.config
+c:\users\administrator\documents\visual studio 2013\Projects\SanalMuze\SanalMuze\bin\SanalMuze.dll
+c:\users\administrator\documents\visual studio 2013\Projects\SanalMuze\SanalMuze\bin\SanalMuze.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\SanalMuze\SanalMuze\obj\Debug\SanalMuze.dll
+c:\users\administrator\documents\visual studio 2013\Projects\SanalMuze\SanalMuze\obj\Debug\SanalMuze.pdb

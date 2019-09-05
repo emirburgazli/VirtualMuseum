@@ -1,0 +1,45 @@
+c:\users\administrator\documents\visual studio 2013\Projects\SanalMuze\SanalMuze\obj\Debug\SanalMuze.dll
+c:\users\administrator\documents\visual studio 2013\Projects\SanalMuze\SanalMuze\obj\Debug\SanalMuze.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\SanalMuze\SanalMuze\bin\SanalMuze.dll.config
+c:\users\administrator\documents\visual studio 2013\Projects\SanalMuze\SanalMuze\bin\SanalMuze.dll
+c:\users\administrator\documents\visual studio 2013\Projects\SanalMuze\SanalMuze\bin\SanalMuze.pdb
+C:\Users\Administrator\Documents\visual studio 2013\Projects\SanalMuze\SanalMuze\obj\Debug\VirtualMuseum.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\emir\SanalMuze\SanalMuze\SanalMuze\bin\SanalMuze.dll.config
+C:\Users\Administrator\Desktop\emir\SanalMuze\SanalMuze\SanalMuze\bin\SanalMuze.dll
+C:\Users\Administrator\Desktop\emir\SanalMuze\SanalMuze\SanalMuze\bin\SanalMuze.pdb
+C:\Users\Administrator\Desktop\emir\SanalMuze\SanalMuze\SanalMuze\obj\Debug\SanalMuze.dll
+C:\Users\Administrator\Desktop\emir\SanalMuze\SanalMuze\SanalMuze\obj\Debug\SanalMuze.pdb
+C:\SanalMuze\SanalMuze\bin\SanalMuze.dll.config
+C:\SanalMuze\SanalMuze\bin\SanalMuze.dll
+C:\SanalMuze\SanalMuze\bin\SanalMuze.pdb
+C:\SanalMuze\SanalMuze\obj\Debug\SanalMuze.dll
+C:\SanalMuze\SanalMuze\obj\Debug\SanalMuze.pdb
+C:\SanalMuze\SanalMuze\obj\Debug\VirtualMuseum.csprojResolveAssemblyReference.cache
+C:\Users\emirh\OneDrive\Masaüstü\SanalMuze\SanalMuze\bin\SanalMuze.dll.config
+C:\Users\emirh\OneDrive\Masaüstü\SanalMuze\SanalMuze\bin\SanalMuze.dll
+C:\Users\emirh\OneDrive\Masaüstü\SanalMuze\SanalMuze\bin\SanalMuze.pdb
+C:\Users\emirh\OneDrive\Masaüstü\SanalMuze\SanalMuze\obj\Debug\VirtualMuseum.csprojResolveAssemblyReference.cache
+C:\Users\emirh\OneDrive\Masaüstü\SanalMuze\SanalMuze\obj\Debug\SanalMuze.dll
+C:\Users\emirh\OneDrive\Masaüstü\SanalMuze\SanalMuze\obj\Debug\SanalMuze.pdb
+C:\Users\Administrator\Desktop\SanalMuze\SanalMuze\SanalMuze\bin\SanalMuze.dll.config
+C:\Users\Administrator\Desktop\SanalMuze\SanalMuze\SanalMuze\bin\SanalMuze.dll
+C:\Users\Administrator\Desktop\SanalMuze\SanalMuze\SanalMuze\bin\SanalMuze.pdb
+C:\Users\Administrator\Desktop\SanalMuze\SanalMuze\SanalMuze\obj\Debug\VirtualMuseum.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\SanalMuze\SanalMuze\SanalMuze\obj\Debug\SanalMuze.dll
+C:\Users\Administrator\Desktop\SanalMuze\SanalMuze\SanalMuze\obj\Debug\SanalMuze.pdb
+C:\Users\Administrator\Desktop\SanalMuze\SanalMuze\bin\SanalMuze.dll.config
+C:\Users\Administrator\Desktop\SanalMuze\SanalMuze\bin\SanalMuze.dll
+C:\Users\Administrator\Desktop\SanalMuze\SanalMuze\bin\SanalMuze.pdb
+C:\Users\Administrator\Desktop\SanalMuze\SanalMuze\obj\Debug\VirtualMuseum.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\SanalMuze\SanalMuze\obj\Debug\SanalMuze.dll
+C:\Users\Administrator\Desktop\SanalMuze\SanalMuze\obj\Debug\SanalMuze.pdb
+C:\Users\Administrator\Desktop\SanalMuze\SanalMuze\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\SanalMuze\SanalMuze\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Downloads\SanalMuze (2)\SanalMuze\SanalMuze\bin\SanalMuze.dll.config
+C:\Users\Administrator\Downloads\SanalMuze (2)\SanalMuze\SanalMuze\bin\SanalMuze.dll
+C:\Users\Administrator\Downloads\SanalMuze (2)\SanalMuze\SanalMuze\bin\SanalMuze.pdb
+C:\Users\Administrator\Downloads\SanalMuze (2)\SanalMuze\SanalMuze\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Downloads\SanalMuze (2)\SanalMuze\SanalMuze\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Downloads\SanalMuze (2)\SanalMuze\SanalMuze\obj\Debug\SanalMuze.dll
+C:\Users\Administrator\Downloads\SanalMuze (2)\SanalMuze\SanalMuze\obj\Debug\SanalMuze.pdb
+C:\Users\Administrator\Downloads\SanalMuze (2)\SanalMuze\SanalMuze\obj\Debug\VirtualMuseum.csprojResolveAssemblyReference.cache

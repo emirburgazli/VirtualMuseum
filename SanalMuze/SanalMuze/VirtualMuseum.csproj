@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EA8EDBBD-FB3D-4B36-8ADF-AFD5D9C5A869}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SanalMuze</RootNamespace>
+    <AssemblyName>SanalMuze</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\css\main.css" />
+    <Content Include="assets\css\util.css" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\css\font-awesome.css" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\css\font-awesome.min.css" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\less\animated.less" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\less\bordered-pulled.less" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\less\core.less" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\less\fixed-width.less" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\less\font-awesome.less" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\less\icons.less" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\less\larger.less" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\less\list.less" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\less\mixins.less" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\less\path.less" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\less\rotated-flipped.less" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\less\screen-reader.less" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\less\stacked.less" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\less\variables.less" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\scss\font-awesome.scss" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\scss\_animated.scss" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\scss\_core.scss" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\scss\_icons.scss" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\scss\_larger.scss" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\scss\_list.scss" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\scss\_mixins.scss" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\scss\_path.scss" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\scss\_stacked.scss" />
+    <Content Include="assets\fonts\font-awesome-4.7.0\scss\_variables.scss" />
+    <Content Include="assets\fonts\iconic\fonts\Material-Design-Iconic-Font.eot" />
+    <Content Include="assets\fonts\iconic\fonts\Material-Design-Iconic-Font.ttf" />
+    <Content Include="assets\fonts\iconic\fonts\Material-Design-Iconic-Font.woff" />
+    <Content Include="assets\fonts\iconic\fonts\Material-Design-Iconic-Font.woff2" />
+    <Content Include="assets\fonts\JosefinSans\JosefinSans-Bold.ttf" />
+    <Content Include="assets\fonts\JosefinSans\JosefinSans-BoldItalic.ttf" />
+    <Content Include="assets\fonts\JosefinSans\JosefinSans-Italic.ttf" />
+    <Content Include="assets\fonts\JosefinSans\JosefinSans-Light.ttf" />
+    <Content Include="assets\fonts\JosefinSans\JosefinSans-LightItalic.ttf" />
+    <Content Include="assets\fonts\JosefinSans\JosefinSans-Regular.ttf" />
+    <Content Include="assets\fonts\JosefinSans\JosefinSans-SemiBold.ttf" />
+    <Content Include="assets\fonts\JosefinSans\JosefinSans-SemiBoldItalic.ttf" />
+    <Content Include="assets\fonts\JosefinSans\JosefinSans-Thin.ttf" />
+    <Content Include="assets\fonts\JosefinSans\JosefinSans-ThinItalic.ttf" />
+    <Content Include="assets\fonts\source-sans-pro\SourceSansPro-Black.ttf" />
+    <Content Include="assets\fonts\source-sans-pro\SourceSansPro-BlackItalic.ttf" />
+    <Content Include="assets\fonts\source-sans-pro\SourceSansPro-Bold.ttf" />
+    <Content Include="assets\fonts\source-sans-pro\SourceSansPro-BoldItalic.ttf" />
+    <Content Include="assets\fonts\source-sans-pro\SourceSansPro-ExtraLight.ttf" />
+    <Content Include="assets\fonts\source-sans-pro\SourceSansPro-ExtraLightItalic.ttf" />
+    <Content Include="assets\fonts\source-sans-pro\SourceSansPro-Italic.ttf" />
+    <Content Include="assets\fonts\source-sans-pro\SourceSansPro-Light.ttf" />
+    <Content Include="assets\fonts\source-sans-pro\SourceSansPro-LightItalic.ttf" />
+    <Content Include="assets\fonts\source-sans-pro\SourceSansPro-Regular.ttf" />
+    <Content Include="assets\fonts\source-sans-pro\SourceSansPro-SemiBold.ttf" />
+    <Content Include="assets\fonts\source-sans-pro\SourceSansPro-SemiBoldItalic.ttf" />
+    <Content Include="assets\fonts\ubuntu\Ubuntu-Bold.ttf" />
+    <Content Include="assets\fonts\ubuntu\Ubuntu-BoldItalic.ttf" />
+    <Content Include="assets\fonts\ubuntu\Ubuntu-Italic.ttf" />
+    <Content Include="assets\fonts\ubuntu\Ubuntu-Light.ttf" />
+    <Content Include="assets\fonts\ubuntu\Ubuntu-LightItalic.ttf" />
+    <Content Include="assets\fonts\ubuntu\Ubuntu-Medium.ttf" />
+    <Content Include="assets\fonts\ubuntu\Ubuntu-MediumItalic.ttf" />
+    <Content Include="assets\fonts\ubuntu\Ubuntu-Regular.ttf" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="wepPages\AdminDashboard.aspx" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="GetMeterialDetails.asmx" />
+    <Content Include="wepPages\Login.aspx" />
+    <Content Include="wepPages\MainPage.aspx" />
+    <Content Include="wepPages\MaterialGuncelle.aspx" />
+    <Content Include="wepPages\MaterielAdd.aspx" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="packages.config" />
+    <None Include="Service References\MetarialService\GetMeterialDetails.wsdl" />
+    <Content Include="Service References\MetarialService\SanalMuze.MetarialService.GetMaterialsDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MetarialService\SanalMuze.MetarialService.Material.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\css\bootstrap.css" />
+    <Content Include="assets\css\font-awesome.min.css" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\fonts\iconic\css\material-design-iconic-font.css" />
+    <Content Include="assets\fonts\iconic\css\material-design-iconic-font.min.css" />
+    <Content Include="assets\fonts\iconic\fonts\Material-Design-Iconic-Font.svg" />
+    <Content Include="assets\fonts\JosefinSans\OFL.txt" />
+    <Content Include="assets\fonts\source-sans-pro\OFL.txt" />
+    <Content Include="assets\fonts\ubuntu\UFL.txt" />
+    <Content Include="assets\img\dummyimg.png" />
+    <Content Include="assets\img\dummyimgg.png" />
+    <Content Include="assets\img\icons\favicon.ico" />
+    <Content Include="assets\img\icons\map-marker.png" />
+    <Content Include="assets\js\bootstrap.js" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\jquery-1.10.2.js" />
+    <Content Include="assets\js\main.js" />
+    <Content Include="assets\vendor\animate\animate.css" />
+    <Content Include="assets\vendor\animsition\css\animsition.css" />
+    <Content Include="assets\vendor\animsition\css\animsition.min.css" />
+    <Content Include="assets\vendor\animsition\js\animsition.js" />
+    <Content Include="assets\vendor\animsition\js\animsition.min.js" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="assets\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="assets\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="assets\vendor\bootstrap\js\popper.js" />
+    <Content Include="assets\vendor\bootstrap\js\popper.min.js" />
+    <Content Include="assets\vendor\bootstrap\js\tooltip.js" />
+    <Content Include="assets\vendor\countdowntime\countdowntime.js" />
+    <Content Include="assets\vendor\css-hamburgers\hamburgers.css" />
+    <Content Include="assets\vendor\css-hamburgers\hamburgers.min.css" />
+    <Content Include="assets\vendor\daterangepicker\daterangepicker.css" />
+    <Content Include="assets\vendor\daterangepicker\daterangepicker.js" />
+    <Content Include="assets\vendor\daterangepicker\moment.js" />
+    <Content Include="assets\vendor\daterangepicker\moment.min.js" />
+    <Content Include="assets\vendor\jquery\jquery-3.2.1.min.js" />
+    <Content Include="assets\vendor\perfect-scrollbar\perfect-scrollbar.css" />
+    <Content Include="assets\vendor\perfect-scrollbar\perfect-scrollbar.min.js" />
+    <Content Include="assets\vendor\select2\select2.css" />
+    <Content Include="assets\vendor\select2\select2.js" />
+    <Content Include="assets\vendor\select2\select2.min.css" />
+    <Content Include="assets\vendor\select2\select2.min.js" />
+    <Content Include="css\bootstrap-social.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\dataTables\dataTables.bootstrap.css" />
+    <Content Include="css\dataTables\dataTables.responsive.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\metisMenu.min.css" />
+    <Content Include="css\morris.css" />
+    <Content Include="css\startmin.css" />
+    <Content Include="css\timeline.css" />
+    <Content Include="wepPages\ListMateriel.aspx" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\dataTables\dataTables.bootstrap.min.js" />
+    <Content Include="js\dataTables\jquery.dataTables.min.js" />
+    <Content Include="js\flot-data.js" />
+    <Content Include="js\flot\excanvas.min.js" />
+    <Content Include="js\flot\jquery.colorhelpers.js" />
+    <Content Include="js\flot\jquery.flot.canvas.js" />
+    <Content Include="js\flot\jquery.flot.categories.js" />
+    <Content Include="js\flot\jquery.flot.crosshair.js" />
+    <Content Include="js\flot\jquery.flot.errorbars.js" />
+    <Content Include="js\flot\jquery.flot.fillbetween.js" />
+    <Content Include="js\flot\jquery.flot.image.js" />
+    <Content Include="js\flot\jquery.flot.js" />
+    <Content Include="js\flot\jquery.flot.navigate.js" />
+    <Content Include="js\flot\jquery.flot.pie.js" />
+    <Content Include="js\flot\jquery.flot.resize.js" />
+    <Content Include="js\flot\jquery.flot.selection.js" />
+    <Content Include="js\flot\jquery.flot.stack.js" />
+    <Content Include="js\flot\jquery.flot.symbol.js" />
+    <Content Include="js\flot\jquery.flot.threshold.js" />
+    <Content Include="js\flot\jquery.flot.time.js" />
+    <Content Include="js\flot\jquery.flot.tooltip.min.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\metisMenu.min.js" />
+    <Content Include="js\morris-data.js" />
+    <Content Include="js\morris.min.js" />
+    <Content Include="js\raphael.min.js" />
+    <Content Include="js\startmin.js" />
+    <None Include="Service References\MetarialService\GetMeterialDetails.disco" />
+    <None Include="Service References\MetarialService\configuration91.svcinfo" />
+    <None Include="Service References\MetarialService\configuration.svcinfo" />
+    <None Include="Service References\MetarialService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="wepPages\TestService.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="class\Admin.cs" />
+    <Compile Include="wepPages\AdminDashboard.aspx.cs">
+      <DependentUpon>AdminDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wepPages\AdminDashboard.aspx.designer.cs">
+      <DependentUpon>AdminDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GetMeterialDetails.asmx.cs">
+      <DependentUpon>GetMeterialDetails.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="wepPages\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wepPages\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wepPages\MainPage.aspx.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wepPages\MainPage.aspx.designer.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wepPages\MaterialGuncelle.aspx.cs">
+      <DependentUpon>MaterialGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wepPages\MaterialGuncelle.aspx.designer.cs">
+      <DependentUpon>MaterialGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wepPages\MaterielAdd.aspx.cs">
+      <DependentUpon>MaterielAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wepPages\MaterielAdd.aspx.designer.cs">
+      <DependentUpon>MaterielAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="class\DbProcess.cs" />
+    <Compile Include="wepPages\ListMateriel.aspx.cs">
+      <DependentUpon>ListMateriel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wepPages\ListMateriel.aspx.designer.cs">
+      <DependentUpon>ListMateriel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="class\Material.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\MetarialService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="wepPages\TestService.aspx.cs">
+      <DependentUpon>TestService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wepPages\TestService.aspx.designer.cs">
+      <DependentUpon>TestService.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\MetarialService\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>35100</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:35100/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
